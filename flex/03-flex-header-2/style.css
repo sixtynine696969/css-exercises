@@ -45,4 +45,31 @@ a {
 
 ul {
   list-style-type: none;
+  gap: 10px;
+}
+
+/* Solution */
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.links {
+  display: flex;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+.notifications {
+  margin-left: auto;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.profile-image {
+  margin-right: 10px;
 }
